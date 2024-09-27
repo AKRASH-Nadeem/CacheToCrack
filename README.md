@@ -48,6 +48,18 @@ To use CacheToCrack, follow these steps:
    python cache_to_crack.py --hash <your_md5_hash> --char <characters_to_use> --output <output_file_path>
    ```
 
+4. Use __Session__ saving:
+    ```bash
+    python cache_to_crack.py --hash <your_md5_hash> --char <characters_to_use> --output <output_file_path> -n session
+    ```
+
+    To __Resume__ the session:
+
+    ```bash
+    python cache_to_crack.py -r session
+    ```
+
+
 ## How It Works
 
 CacheToCrack utilizes a custom class to generate all possible strings within the specified length limits and character sets. Each generated string is hashed using MD5 and compared against the target hash. If a match is found, the corresponding password is stored and displayed.
