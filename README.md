@@ -76,7 +76,8 @@ Ensure you have Python 3.8 or higher installed. All required packages are built-
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+**Contributions** are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+I would Like if someone can help to use this script with parallel processing, Parallel processing won't be easy because the script is saving session.
 
 ## License
 
